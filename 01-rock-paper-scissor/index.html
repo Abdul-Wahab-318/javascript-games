@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!--google font-->
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--bootstrap-->
+</head>
+<body>
+    <div class="site-wrapper">
+        <div class="container">
+            <header>
+                <h2 class="nav-heading">Rock Paper Scissor</h2>
+            </header>
+
+            <div class="icon-container">
+                <img src="./images/human.png" width="70px" alt="">
+                <span>VS</span>
+                <img src="./images/robot.png" width="70px" alt="">
+            </div>
+
+            <h3 class="mt-5 text-white">Select an option:</h3>
+
+            <div class="options-parent d-flex align-items-center justify-content-between">
+                <div class="options-list">
+                    <button id="btnRock" class="action-btn"> <img src="./images/rock.png" width="60px" alt=""> </button>
+                    <button id="btnPaper" class="action-btn"> <img src="./images/paper.png" width="60px" alt=""> </button>
+                    <button id="btnScissor" class="action-btn"> <img src="./images/scissor.png" width="60px" alt=""> </button>
+                </div>
+
+                <span class="robot-answer">
+                    <img src="" alt="" width="60px" id="robotAnswer">
+                </span>
+            </div>
+
+            <div class="result mx-auto text-white text-center mt-5">
+                <h1 id = "result" > . . . </h1>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

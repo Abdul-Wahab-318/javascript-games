@@ -1,0 +1,54 @@
+body{
+    padding: unset;
+    margin: unset;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none;
+}
+header{
+    padding: 20px;
+}
+.nav-heading{
+    font-family: 'Pacifico', cursive;
+    color: white;
+    letter-spacing: 2px;
+}
+.site-wrapper{
+    background-color: #282c34;
+    min-height: 100vh;
+}
+.icon-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.icon-container span{
+    font-size: 40px;
+    color: white;
+    margin: 0 30px;
+}
+.options-list
+{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 35px;
+}
+.options-list button{
+    all: unset;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.options-list  button:focus {
+    outline: 2px solid white;
+}
