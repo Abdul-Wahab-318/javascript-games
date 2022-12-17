@@ -1,0 +1,55 @@
+body{
+    padding: unset;
+    margin: unset;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+ul{
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none;
+}
+header{
+    padding: 20px 0 ;
+}
+.nav-heading{
+    font-family: 'Pacifico', cursive;
+    color: white;
+    letter-spacing: 2px;
+}
+.site-wrapper{
+    /*background-color: hsl(222, 14%, 10%);*/
+    min-height: 100vh;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,180px);
+    gap: 10px;
+}
+
+.grid-container .grid-card{
+    background-color: hsl(222, 14%, 10%);
+    padding: 20px 10px;
+
+    border-radius: 5px;
+}
+.grid-container .grid-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: hsl(222, 14%, 10%);
+}
+
+.mole-card{
+    background-image: url(./images/satoru.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+}
