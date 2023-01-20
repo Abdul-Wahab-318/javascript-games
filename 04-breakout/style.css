@@ -28,7 +28,7 @@ header{
 }
 
 .grid-container{
-    width: 800px;
+    max-width: 800px;
     height: 400px;
     position: relative;
     display: grid;
@@ -47,7 +47,7 @@ header{
     height: 20px;
     position: absolute;
     left: 131px;
-    top: 10px;
+  
 
 }
 .user{
