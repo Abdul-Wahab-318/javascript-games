@@ -110,8 +110,6 @@ function checkMatch()
         alert(" Try Again ")
         allCards[cardsChosenIds[0]].firstChild.setAttribute("src", "./images/roll.png" )
         allCards[cardsChosenIds[1]].firstChild.setAttribute("src", "./images/roll.png" )
-        //re shuffle cards
-        cards = shuffleArray(cards)
         
     }
     cardsChosen = []
